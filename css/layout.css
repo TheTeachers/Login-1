@@ -1,0 +1,71 @@
+body{
+    margin:0px;
+    background-image: url("img/Hydrangeas.jpg");
+}
+.box{
+    background-color:rgba(0, 0, 0, .9);
+    height:500px;
+    width:500px;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    border:1px solid white;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    font-family: fantasy;
+    color:white;
+}
+hr{
+    margin-top: -5px;
+    width:400px;
+}
+.imgavatar{
+    text-align: center;
+}
+.avatar{
+   width:90px;
+}
+input[type="email"], input[type="password"]{
+    width:460px;
+    height: 30px;
+    
+    padding:12px,20px;
+    margin-bottom:15px
+}
+.loginme{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+label{
+    color:white;
+    font-family: inherit;
+}
+button{
+    width:460px;
+    height:40px;
+    background-color: darkgreen;
+    color:white;
+    font-family: fantasy;
+    margin-bottom: 20px;
+    border: 1px solid white !important;
+}
+.cancelbtn{
+    width:50px;
+    height: 30px;
+    background-color: darkgreen ;
+    color:white;
+    margin-left:20px;
+    margin-top:50px;
+}
+.pass{
+    margin-left: 300px;
+}
+button:hover{
+    background-color: darkseagreen;
+    color:black;
+}
+a:hover{
+    color:white;
+}
